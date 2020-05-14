@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.parent {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    margin: 20px;
+    cursor: pointer;
+}
+.parent:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+    box-shadow: 10px 15px 10px rgba(16, 17, 17, 0.12);
+}
+.parent:active {
+    transform: scale(1);
+}
+.parent img {
+    width: 250px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+.parent p {
+    font-size: 25px;
+    padding: 0;
+    margin: 3px;
+}
+.parent h5 {
+    font-size: 25px;
+    padding: 0;
+    margin: 3px;
+}

@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import containerStyle from './assets/css/container.module.css'
+import Left from './components/sideLeft'
+import Right from './components/sideRight'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section className={containerStyle.sideLeft}>
+      <Left />
+      </section>
+      <section className={containerStyle.sideRight}>
+        <Right />
+      </section>
     </div>
   );
 }
