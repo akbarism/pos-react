@@ -4,11 +4,11 @@
     width: 100%;
 }
 .parent {
-    width: 250px;
-    height: 300px;
+    width: 230px;
+    height: 218px;
     border-radius: 8px 8px 0 0;
     overflow: hidden;
-    margin: 20px;
+    margin: 15px 20px;
     cursor: pointer;
 }
 .parent:hover {
@@ -21,7 +21,7 @@
 }
 .parent img {
     width: 250px;
-    height: 200px;
+    height: 130px;
     padding: 0;
     margin: 0;
     object-fit: cover;
@@ -29,7 +29,7 @@
 .parent p {
     font-size: 25px;
     padding: 0;
-    margin: 3px;
+    margin: 2px;
 }
 .parent h5 {
     font-size: 25px;

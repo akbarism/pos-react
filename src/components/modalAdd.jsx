@@ -60,3 +60,4 @@ class ModalAdd extends Component {
 }
 
 export default ModalAdd;
+

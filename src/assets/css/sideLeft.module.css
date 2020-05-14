@@ -57,22 +57,18 @@
     background: rgba(190, 195, 202, 0.3);
     overflow: hidden;
     overflow-y: scroll;
+    padding: 0 30px;
 }
 ::-webkit-scrollbar {
     width: 10px;
   }
-  /* Track */
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
-  /* Handle */
   ::-webkit-scrollbar-thumb {
-    /* background: #888;  */
     background: #7b7a7c8e;
   }
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    /* background: #555;  */
     background: #bbb3b64d;
   }
   .groupLabel {
@@ -103,7 +99,7 @@
     background: #F24F8A;
     width: 100px;
     height: 45px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
     margin: 10px;
     color: #ffffff;
@@ -114,7 +110,7 @@
     background: #57CAD5;
     width: 100px;
     height: 45px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
     margin: 10px;
     color: #ffffff;
@@ -124,5 +120,10 @@
   .heroBtn {
       display: flex;
       justify-content: flex-end;
+      width: 100%;
+  }
+  .page {
+      display: flex;
+      justify-content: center;
       width: 100%;
   }

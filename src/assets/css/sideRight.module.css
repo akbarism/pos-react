@@ -59,3 +59,94 @@
     font-size: 20px;
     color: #CECECE;
 }
+.exist {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.listFood {
+    margin-top: 15px;
+    width: 100%;
+    height: 340px;
+    padding: 10px 0 0 20px;
+
+}
+.selectedFood {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.thumb {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+.midle {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.counter {
+    display: flex;
+}
+.numb {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #82DE3A;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #82DE3A;
+}
+.increment {
+    width: 40px;
+    height: 40px;
+    background: rgba(130, 222, 58, 0.2);
+    border: 1px solid #82DE3A;
+    font-weight: 700;
+    font-size: 20px;
+    color: #82DE3A;
+    padding: 0px;
+}
+.price {
+    display: flex;
+    align-items: flex-end;
+    width: 100px;
+    height: 75px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.heroBtn {
+    width: 100%;
+    padding: 10px 20px;
+}
+.sumTotal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ppn p{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.btnA {
+    width: 100%;
+    height: 50px;
+    background: #57CAD5;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.btnB {
+    width: 100%;
+    height: 50px;
+    background: #F24F8A;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+}

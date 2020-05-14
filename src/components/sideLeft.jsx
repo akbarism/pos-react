@@ -7,6 +7,7 @@ import clipboard from '../assets/img/clipboard.png'
 import add from '../assets/img/add.png'
 import Menu from '../components/menu'
 import ModalAdd from './modalAdd'
+import Pagination from './Pagination'
 
 class sideLeft extends Component {
     
@@ -44,6 +45,9 @@ class sideLeft extends Component {
                     </section>
                     <section className={styless.content}>
                         <Menu />
+                        <footer className={styless.page}>
+                        <Pagination />
+                        </footer>
                     </section>
                 </div>
             </div>

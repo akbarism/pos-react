@@ -27,6 +27,16 @@ class Menu extends Component {
                     <p>Cofee Latte</p>
                     <h5>Rp. 5.000</h5>
                 </div>
+                <div className={styless.parent}>
+                    <img src={kopi} alt="food"/>
+                    <p>Cofee Latte</p>
+                    <h5>Rp. 5.000</h5>
+                </div>
+                <div className={styless.parent}>
+                    <img src={kopi} alt="food"/>
+                    <p>Cofee Latte</p>
+                    <h5>Rp. 5.000</h5>
+                </div>
             </div>
         )
     }
