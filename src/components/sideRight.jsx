@@ -22,14 +22,14 @@ class sideRight extends Component {
                 <div className={styless.exist}>
                     <div className={styless.listFood}>
                         <section className={styless.selectedFood}>
-                            <img src={cofee} className={styless.thumb}/>
+                            <img src={cofee} className={styless.thumb} alt="a cup"/>
                             <article className={styless.midle}>
                                 <section className={styless.foodName}>
                                     <h5>cofee</h5>
                                 </section>
                                 <section className={styless.counter}>
                                     <button className={styless.increment}>-</button>
-                                    <input type="text" value="1" className={styless.numb}/>
+                                    <input type="text"  className={styless.numb}/>
                                     <button className={styless.increment}>+</button>
                                 </section>
                             </article>

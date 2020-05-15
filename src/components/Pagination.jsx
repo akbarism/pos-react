@@ -7,23 +7,23 @@ class sideRight extends Component {
         <nav aria-label="Page navigation example">
           <ul className="pagination">
             <li className="page-item">
-              <a className="page-link" aria-label="Previous">
+              <div className="page-link" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
-              </a>
+              </div>
             </li>
             <li className="page-item">
-              <a className="page-link">1</a>
+              <div className="page-link">1</div>
             </li>
             <li className="page-item">
-              <a className="page-link">2</a>
+              <div className="page-link">2</div>
             </li>
             <li className="page-item">
-              <a className="page-link">3</a>
+              <div className="page-link">3</div>
             </li>
             <li className="page-item">
-              <a className="page-link" aria-label="Next">
+              <div className="page-link" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
-              </a>
+              </div>
             </li>
           </ul>
         </nav>

@@ -8,9 +8,17 @@ import add from '../assets/img/add.png'
 import Menu from '../components/menu'
 import ModalAdd from './modalAdd'
 import Pagination from './Pagination'
+// import API from '../axios/Api'
 
 class sideLeft extends Component {
-    
+    constructor () {
+        super () 
+            this.state = {
+                valueSearch: ''
+        }
+    }
+
+
     render () {
         return (
             <div className={styless.parent}>
@@ -20,10 +28,20 @@ class sideLeft extends Component {
                     className={styless.mnu}
                     />
                     <h1>Food Items</h1>
+                    <div>
+                    <input type="text"
+                    className={styless.src}
+                    id="ok"
+                    onChange={(e) => this.props.onSearch(e)}
+                   
+                    name="asearch"/>
+                    <label htmlFor="ok">
                     <img src={magnifer} 
                     alt="search"
-                    className={styless.src}
+                    className={styless.srcIcon}
                     />
+                    </label>
+                    </div>
                 </nav>
                 <div className={styless.bottom}>
                     <section className={styless.sideBar}>
@@ -44,7 +62,7 @@ class sideLeft extends Component {
                         <ModalAdd />
                     </section>
                     <section className={styless.content}>
-                        <Menu />
+                        <Menu menu={this.props.menu}/>
                         <footer className={styless.page}>
                         <Pagination />
                         </footer>
